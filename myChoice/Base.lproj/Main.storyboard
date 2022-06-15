@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="UIMenu" message="Requires Xcode 11 or later." minToolsVersion="11.0" requiredIntegratedClassName="UICommandDiff"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,22 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="redraw" misplaced="YES" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="85W-0F-MWH">
-                                <rect key="frame" x="123" y="595" width="169" height="35"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="85W-0F-MWH" secondAttribute="height" multiplier="103:35" id="zDx-Ru-y72"/>
-                                </constraints>
-                                <menu key="menu" id="Izv-Ah-g35">
-                                    <children>
-                                        <command title="ok" id="2qU-7Y-qtU"/>
-                                        <command title="not ok" id="UT6-8h-ssU"/>
-                                    </children>
-                                </menu>
-                                <state key="normal" title="hi"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="hi" titleAlignment="center">
-                                    <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
-                                </buttonConfiguration>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aho-Hw-k5K">
                                 <rect key="frame" x="168" y="536" width="79" height="30"/>
                                 <constraints>
@@ -82,19 +67,35 @@
                                     <constraint firstAttribute="width" secondItem="UX1-Sg-jFB" secondAttribute="height" multiplier="169:168" id="2fH-4J-YTg"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CF7-sx-rQL">
-                                <rect key="frame" x="156" y="771" width="103" height="35"/>
+                            <button opaque="NO" contentMode="redraw" misplaced="YES" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="85W-0F-MWH">
+                                <rect key="frame" x="152" y="605" width="110" height="35"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="CF7-sx-rQL" secondAttribute="height" multiplier="103:35" id="pYp-dA-BXu"/>
+                                    <constraint firstAttribute="width" secondItem="85W-0F-MWH" secondAttribute="height" multiplier="22:7" id="jsk-nJ-r7c"/>
                                 </constraints>
-                                <menu key="menu" id="U0y-4N-JRM">
+                                <menu key="menu" id="Izv-Ah-g35">
                                     <children>
-                                        <command title="ok" id="Ggi-5m-guv"/>
-                                        <command title="not ok" id="5Vu-lN-pZY"/>
+                                        <command title="ok" id="2qU-7Y-qtU"/>
+                                        <command title="not ok" id="UT6-8h-ssU"/>
                                     </children>
                                 </menu>
                                 <state key="normal" title="hi"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="hi">
+                                <buttonConfiguration key="configuration" style="tinted" title="" titleAlignment="center">
+                                    <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="redraw" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kAC-gP-idM">
+                                <rect key="frame" x="152" y="765" width="110" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="kAC-gP-idM" secondAttribute="height" multiplier="22:7" id="7nL-jo-unf"/>
+                                </constraints>
+                                <menu key="menu" id="lcP-tO-wcg">
+                                    <children>
+                                        <command title="ok" id="0W9-PC-F9B"/>
+                                        <command title="not ok" id="sGB-9Z-dGI"/>
+                                    </children>
+                                </menu>
+                                <state key="normal" title="hi"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="" titleAlignment="center">
                                     <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
                                 </buttonConfiguration>
                             </button>
@@ -104,21 +105,22 @@
                         <constraints>
                             <constraint firstItem="PIb-kZ-ThN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="114" id="2nb-Jn-Qyb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aho-Hw-k5K" secondAttribute="trailing" constant="167" id="6uu-aa-eUL"/>
+                            <constraint firstItem="kAC-gP-idM" firstAttribute="top" secondItem="PVe-7T-qwx" secondAttribute="bottom" constant="49" id="7I7-ts-ZhU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PIb-kZ-ThN" secondAttribute="trailing" constant="114" id="AWM-T4-PNH"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UX1-Sg-jFB" secondAttribute="trailing" constant="122" id="FBK-m7-eif"/>
-                            <constraint firstItem="CF7-sx-rQL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="156" id="JJY-sj-eRi"/>
-                            <constraint firstItem="CF7-sx-rQL" firstAttribute="top" secondItem="PVe-7T-qwx" secondAttribute="bottom" constant="55" id="Pgm-Yu-wXT"/>
                             <constraint firstItem="PIb-kZ-ThN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="VJl-Vg-oD6"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="85W-0F-MWH" secondAttribute="trailing" constant="155" id="WAZ-O3-D9c"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CF7-sx-rQL" secondAttribute="trailing" constant="155" id="ZeL-VK-vc0"/>
                             <constraint firstItem="PVe-7T-qwx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="149" id="ZuR-pt-bLm"/>
                             <constraint firstItem="UX1-Sg-jFB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="123" id="bDA-CG-ywT"/>
+                            <constraint firstItem="kAC-gP-idM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="152" id="cED-nl-KSa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kAC-gP-idM" secondAttribute="trailing" constant="152" id="cQk-wc-gqB"/>
                             <constraint firstItem="UX1-Sg-jFB" firstAttribute="top" secondItem="PIb-kZ-ThN" secondAttribute="bottom" constant="37" id="cW2-N9-JWa"/>
                             <constraint firstItem="aho-Hw-k5K" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="168" id="dYt-Ob-uwh"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PVe-7T-qwx" secondAttribute="trailing" constant="155" id="eH0-RE-jgu"/>
+                            <constraint firstItem="PVe-7T-qwx" firstAttribute="top" secondItem="85W-0F-MWH" secondAttribute="bottom" constant="46" id="hXT-tM-Gmp"/>
                             <constraint firstItem="aho-Hw-k5K" firstAttribute="top" secondItem="UX1-Sg-jFB" secondAttribute="bottom" constant="87" id="lKM-xp-5pv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kAC-gP-idM" secondAttribute="bottom" constant="62" id="mft-jC-kAm"/>
                             <constraint firstItem="85W-0F-MWH" firstAttribute="top" secondItem="aho-Hw-k5K" secondAttribute="bottom" constant="29" id="pDy-CT-q07"/>
-                            <constraint firstItem="PVe-7T-qwx" firstAttribute="top" secondItem="85W-0F-MWH" secondAttribute="bottom" constant="60" id="sfF-V3-tqg"/>
                         </constraints>
                     </view>
                     <connections>
