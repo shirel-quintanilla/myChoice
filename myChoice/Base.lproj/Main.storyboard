@@ -292,26 +292,33 @@
                                 <color key="textColor" red="0.36262726090000003" green="0.59478301140000001" blue="0.68602035979999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How To Get It" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yuZ-qw-4VU">
+                                <rect key="frame" x="47" y="569" width="320" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="27"/>
+                                <color key="textColor" red="0.36262726090000003" green="0.59478301140000001" blue="0.68602035979999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ad-jO-jWa">
-                                <rect key="frame" x="29" y="301" width="356" height="296"/>
+                                <rect key="frame" x="29" y="275" width="356" height="296"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">An IUD is a small, flexible T-shaped device that is placed in the uterus by a trained healthcare professional. This method has nearly 100% effectiveness and requires little to no maintenance for years! But, some side effects include: irregular bleeding, lighter/shorter periods or no periods at all, and premenstral syndrome (PMS).</string>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                 <color key="textColor" red="0.50980395079999996" green="0.49803921579999999" blue="0.68235301969999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="My Choice Icon (3)" translatesAutoresizingMaskIntoConstraints="NO" id="i45-7c-hgM">
+                                <rect key="frame" x="93" y="108" width="228" height="188"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aPq-bq-OP3">
-                                <rect key="frame" x="20" y="605" width="374" height="160"/>
+                                <rect key="frame" x="20" y="613" width="374" height="160"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">If paying out-of-pocket, getting an IUD can cost between $500-$1,300. However, some healthcare centers may offer it for free or at a low cost. You should consult a healthcare provider if you're considering getting an IUD.</string>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                 <color key="textColor" red="0.50980395079999996" green="0.49803921579999999" blue="0.68235301969999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="My Choice Icon (3)" translatesAutoresizingMaskIntoConstraints="NO" id="i45-7c-hgM">
-                                <rect key="frame" x="93" y="114" width="228" height="188"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qNC-DB-eO4"/>
                         <color key="backgroundColor" red="0.84023570719999996" green="0.86054719830000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -338,9 +345,32 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="My Choice Icon (5)" translatesAutoresizingMaskIntoConstraints="NO" id="3bA-9E-FHf">
-                                <rect key="frame" x="87" y="132" width="240" height="182"/>
+                                <rect key="frame" x="100" y="98" width="240" height="182"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZGY-0V-l1I">
+                                <rect key="frame" x="29" y="240" width="356" height="365"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">A birth control pill contains hormones to change the way the body works to prevent pregnancy. It can be 99% effective when taken at the same time every day, but if you forget to take it, you can get pregnant. Some women take it to regulate or lighten menstruation, improve acne, and more. Some side effects include: breast tenderness or swelling, headaches, and abnormal menstruation.</string>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <color key="textColor" red="0.50980395079999996" green="0.49803921579999999" blue="0.68235301969999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NLO-zd-PJY">
+                                <rect key="frame" x="20" y="626" width="374" height="182"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">You need a prescription for birth control pills. You can get one from a doctor or nurse at a doctor’s office or health clinic. In a few states (including Texas), you can even get a prescription online or directly from a pharmacist.</string>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <color key="textColor" red="0.50980395079999996" green="0.49803921579999999" blue="0.68235301969999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How To Get It" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HAW-gV-lQv">
+                                <rect key="frame" x="47" y="589" width="320" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="27"/>
+                                <color key="textColor" red="0.36262726090000003" green="0.59478301140000001" blue="0.68602035979999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="LLd-H0-fGg"/>
                         <color key="backgroundColor" red="0.84023570719999996" green="0.86054719830000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -349,7 +379,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3X3-aj-C3u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="1548"/>
+            <point key="canvasLocation" x="18.840579710144929" y="1547.5446428571429"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="zAr-mt-go6">
@@ -419,7 +449,7 @@
                                                     <attributedString key="attributedTitle">
                                                         <fragment content="IUDs">
                                                             <attributes>
-                                                                <color key="NSColor" red="0.36262726086121877" green="0.59478301138245249" blue="0.68602035984848486" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <color key="NSColor" red="0.36262726090000003" green="0.59478301140000001" blue="0.68602035979999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <font key="NSFont" size="20" name="Futura-Medium"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -438,7 +468,7 @@
                                                     <attributedString key="attributedTitle">
                                                         <fragment content="Birth Control Pills">
                                                             <attributes>
-                                                                <color key="NSColor" red="0.36262726086121877" green="0.59478301138245249" blue="0.68602035984848486" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <color key="NSColor" red="0.36262726090000003" green="0.59478301140000001" blue="0.68602035979999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <font key="NSFont" size="20" name="Futura-Medium"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -463,7 +493,7 @@
                                                     <attributedString key="attributedTitle">
                                                         <fragment content="Condoms">
                                                             <attributes>
-                                                                <color key="NSColor" red="0.36262726086121877" green="0.59478301138245249" blue="0.68602035984848486" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <color key="NSColor" red="0.36262726090000003" green="0.59478301140000001" blue="0.68602035979999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <font key="NSFont" size="20" name="Futura-Medium"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -551,7 +581,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="a7S-Q0-7No" secondAttribute="height" multiplier="343:355" id="eSG-n5-SOh"/>
                                                 </constraints>
-                                                <string key="text">An, STD or sexaul trasnmitted disease is a and insfection that can be transmitted from one person to another usually during sexual contact. Despite being very common, specially but not exclusively among young people, STDs are often pushed aside until its too late. If you have an active sexual life you are vulnerable to contracting them, in fact anyone despite their relationship status or sexual orientation is vulnerable as well. </string>
+                                                <string key="text">An, STD or sexually trasnmitted disease, is a and infection that can be transmitted from one person to another usually during sexual contact. Despite being very common, specially but not exclusively among young people, STDs are often pushed aside until its too late. If you have an active sexual life you are vulnerable to contracting them, in fact anyone despite their relationship status or sexual orientation is vulnerable as well. </string>
                                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                                 <color key="textColor" red="0.50980395079999996" green="0.49803921579999999" blue="0.68235301969999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
