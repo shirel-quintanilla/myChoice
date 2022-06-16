@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -22,10 +22,11 @@
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="mW7-pz-zzQ" secondAttribute="height" multiplier="41:11" id="cB2-vA-9D0"/>
                                 </constraints>
+                                <color key="tintColor" red="0.49803921579999999" green="0.47843140360000003" blue="0.66666668650000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Abortion Clinics">
                                     <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
-                                    <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
+                                    <color key="baseBackgroundColor" red="0.61960786580000005" green="0.59607845540000004" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="vSf-k9-fBL" kind="show" id="fcG-hr-eKO"/>
@@ -36,10 +37,11 @@
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="4pF-OM-CV2" secondAttribute="height" multiplier="41:11" id="XIp-UN-cbZ"/>
                                 </constraints>
+                                <color key="tintColor" red="0.49448667019999998" green="0.47499522150000001" blue="0.66869870580000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="STD info + clinics">
+                                <buttonConfiguration key="configuration" style="tinted" title="STD Info + Clinics">
                                     <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
-                                    <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
+                                    <color key="baseBackgroundColor" red="0.61960786580000005" green="0.59607845540000004" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="Mgu-Jf-CXE" kind="show" id="Hdo-7c-Gkp"/>
@@ -56,10 +58,11 @@
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="yOM-5d-m0a" secondAttribute="height" multiplier="41:11" id="W40-ey-W4K"/>
                                 </constraints>
+                                <color key="tintColor" red="0.49448667019999998" green="0.47499522150000001" blue="0.66869870580000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Contraceptive Resources">
                                     <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
-                                    <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
+                                    <color key="baseBackgroundColor" red="0.61960786580000005" green="0.59607845540000004" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="0Oj-HX-VvU" kind="show" id="iHi-bv-EWq"/>
@@ -73,8 +76,9 @@
                                 <attributedString key="attributedText">
                                     <fragment content="MyChoice">
                                         <attributes>
-                                            <font key="NSFont" size="50" name="HelveticaNeue-Light"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <color key="NSColor" red="0.50980395079999996" green="0.49803921579999999" blue="0.68235301969999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="46" name="Futura-Medium"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -119,14 +123,14 @@
             <objects>
                 <viewController id="vSf-k9-fBL" customClass="secondViewController" customModule="myChoice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="c0N-1J-qby">
-                        <rect key="frame" x="0.0" y="0.0" width="421" height="788"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aI5-HG-03n">
-                                <rect key="frame" x="0.0" y="0.0" width="421" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fPu-TE-OCw">
-                                        <rect key="frame" x="-8" y="-414" width="421" height="1500"/>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fPu-TE-OCw">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-06-15 at 1.36.57 PM" translatesAutoresizingMaskIntoConstraints="NO" id="Dw9-lW-PAK">
                                                 <rect key="frame" x="-20" y="8" width="454" height="285"/>
@@ -135,7 +139,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select the closest city you live near or the city you live in." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DeK-be-7Kk">
                                                 <rect key="frame" x="32" y="301" width="350" height="125"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -147,16 +151,13 @@
                                                     <fontDescription key="titleFontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
                                                     <color key="baseBackgroundColor" red="0.94050914363442284" green="0.51637193399279624" blue="0.95573908090591431" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="sanA:" destination="vSf-k9-fBL" eventType="touchUpInside" id="8ei-ot-ywH"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mgr-Zz-nMl">
                                                 <rect key="frame" x="214" y="434" width="149" height="88"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Houston">
-                                                    <fontDescription key="titleFontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                                     <color key="baseBackgroundColor" red="0.94050914360000004" green="0.51637193400000003" blue="0.95573908090000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                             </button>
@@ -187,13 +188,6 @@
                                                     <color key="baseBackgroundColor" red="0.94050914360000004" green="0.51637193400000003" blue="0.95573908090000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="redraw" semanticContentAttribute="spatial" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your clinic " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TlN-Ox-1io">
-                                                <rect key="frame" x="32" y="853" width="350" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.97201737026418678" green="0.915026595341634" blue="0.99823874599999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
@@ -221,14 +215,170 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="9Wv-6Z-Qpb"/>
-                    <size key="freeformSize" width="421" height="842"/>
-                    <connections>
-                        <outlet property="clinicName" destination="TlN-Ox-1io" id="TwL-tz-Ix6"/>
-                    </connections>
+                    <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RVF-Nb-VDo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="855.79710144927537" y="-166.07142857142856"/>
+            <point key="canvasLocation" x="860.86956521739137" y="-166.07142857142856"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1dG-b3-oLH">
+            <objects>
+                <viewController id="lO3-DM-bFK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="emC-0C-8gb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HOUSTON" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lIh-0B-LCG">
+                                <rect key="frame" x="60" y="22" width="295" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="50"/>
+                                <color key="textColor" red="0.94050914360000004" green="0.51637193400000003" blue="0.95573908090000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-06-16 at 9.37.18 AM" translatesAutoresizingMaskIntoConstraints="NO" id="yKe-lF-xyx">
+                                <rect key="frame" x="20" y="185" width="374" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#1) Hope Medical Group for Women" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="swT-rX-510">
+                                <rect key="frame" x="20" y="119" width="374" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="240 MILES AWAY from Houston" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EbM-GN-XKf">
+                                <rect key="frame" x="10" y="361" width="180" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                                <color key="textColor" red="0.80688308256188623" green="0.27005740107393078" blue="0.21558353451592774" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="go to https://www.hopemedical.com/ for more information" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="idD-Z0-4gt">
+                                <rect key="frame" x="-19" y="395" width="453" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0uM-PW-Qmy">
+                                <rect key="frame" x="-65" y="499" width="673" height="126"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="MJ7-yg-bjD"/>
+                        <color key="backgroundColor" red="0.97201737030000002" green="0.91502659529999997" blue="0.99823874599999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2mb-V6-B6C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1569.5652173913045" y="-148.66071428571428"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Hwb-Iw-Fhz">
+            <objects>
+                <viewController id="6rT-KU-7q0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zk7-y6-AW2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Intrauterine Device (IUD)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XIX-xt-jpq">
+                                <rect key="frame" x="47" y="44" width="320" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="27"/>
+                                <color key="textColor" red="0.36262726090000003" green="0.59478301140000001" blue="0.68602035979999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ad-jO-jWa">
+                                <rect key="frame" x="29" y="301" width="356" height="296"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">An IUD is a small, flexible T-shaped device that is placed in the uterus by a trained healthcare professional. This method has nearly 100% effectiveness and requires little to no maintenance for years! But, some side effects include: irregular bleeding, lighter/shorter periods or no periods at all, and premenstral syndrome (PMS).</string>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <color key="textColor" red="0.50980395079999996" green="0.49803921579999999" blue="0.68235301969999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aPq-bq-OP3">
+                                <rect key="frame" x="20" y="605" width="374" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">If paying out-of-pocket, getting an IUD can cost between $500-$1,300. However, some healthcare centers may offer it for free or at a low cost. You should consult a healthcare provider if you're considering getting an IUD.</string>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <color key="textColor" red="0.50980395079999996" green="0.49803921579999999" blue="0.68235301969999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="My Choice Icon (3)" translatesAutoresizingMaskIntoConstraints="NO" id="i45-7c-hgM">
+                                <rect key="frame" x="93" y="114" width="228" height="188"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qNC-DB-eO4"/>
+                        <color key="backgroundColor" red="0.84023570719999996" green="0.86054719830000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="adk-lS-dVQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1TV-0l-zKr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-726.08695652173924" y="887.94642857142856"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TO4-i9-9Ab">
+            <objects>
+                <viewController id="sWr-Us-IKc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bwe-Ty-pMc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Birth Control Pills" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WZW-Hw-2Cn">
+                                <rect key="frame" x="47" y="54" width="320" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="27"/>
+                                <color key="textColor" red="0.36262726090000003" green="0.59478301140000001" blue="0.68602035979999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="My Choice Icon (5)" translatesAutoresizingMaskIntoConstraints="NO" id="3bA-9E-FHf">
+                                <rect key="frame" x="87" y="132" width="240" height="182"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="LLd-H0-fGg"/>
+                        <color key="backgroundColor" red="0.84023570719999996" green="0.86054719830000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Yrs-S4-uEz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3X3-aj-C3u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="1548"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zAr-mt-go6">
+            <objects>
+                <viewController id="aC8-TI-pkd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vL2-d7-6oR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Condoms (Male &amp; Female)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d4A-Nc-JfI">
+                                <rect key="frame" x="42" y="33" width="331" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="27"/>
+                                <color key="textColor" red="0.36262726090000003" green="0.59478301140000001" blue="0.68602035979999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="My Choice Icon (4)" translatesAutoresizingMaskIntoConstraints="NO" id="5it-cE-HPq">
+                                <rect key="frame" x="87" y="101" width="240" height="182"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="n1P-He-8Uj"/>
+                        <color key="backgroundColor" red="0.84023570719999996" green="0.86054719830000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="saa-uJ-X0n"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F6Z-yI-PVn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="817" y="1357"/>
         </scene>
         <!--Third View Controller-->
         <scene sceneID="QL4-5t-uKs">
@@ -244,29 +394,108 @@
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VKF-aV-2va">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="My Choice Icon" translatesAutoresizingMaskIntoConstraints="NO" id="NKc-90-spq">
-                                                <rect key="frame" x="65" y="56" width="240" height="128"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5" translatesAutoresizingMaskIntoConstraints="NO" id="hOX-bN-Xj6">
-                                                <rect key="frame" x="87" y="665" width="240" height="128"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="My Choice Icon" translatesAutoresizingMaskIntoConstraints="NO" id="glG-YB-aGi">
                                                 <rect key="frame" x="87" y="1273" width="240" height="128"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="jahsjahjsjahsjhfkjshdnfjaioiwjoqjwojfiejfofiwoiefjowienkjsfbksjfajsjh" textAlignment="natural" lineBreakMode="headTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Slb-TU-cN0">
-                                                <rect key="frame" x="87" y="290" width="240" height="126"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contraception Methods" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3x-jh-Kqd">
+                                                <rect key="frame" x="47" y="39" width="320" height="35.5"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="27"/>
+                                                <color key="textColor" red="0.36262726090000003" green="0.59478301140000001" blue="0.68602035979999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y8W-QZ-Zra">
+                                                <rect key="frame" x="25" y="91.5" width="364" height="208"/>
+                                                <string key="text">If you are sexually active and don’t want a baby, consider using birth control. Learn more about some of the different birth control methods below (listed in order by effectiveness). Before you choose a method, make sure to discuss it with your partner and healthcare provider.</string>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                                <color key="textColor" red="0.50980395079999996" green="0.49803921579999999" blue="0.68235301969999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ag9-ef-5bv">
+                                                <rect key="frame" x="85" y="340.5" width="244" height="64"/>
+                                                <color key="tintColor" red="0.47058826679999999" green="0.77254903320000001" blue="0.88627451660000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="tinted">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="IUDs">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.36262726086121877" green="0.59478301138245249" blue="0.68602035984848486" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="20" name="Futura-Medium"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="6rT-KU-7q0" kind="show" id="0j5-tI-GsM"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vam-eY-11N">
+                                                <rect key="frame" x="85" y="434" width="244" height="64"/>
+                                                <color key="tintColor" red="0.47058826679999999" green="0.77254903320000001" blue="0.88627451660000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="tinted">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Birth Control Pills">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.36262726086121877" green="0.59478301138245249" blue="0.68602035984848486" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="20" name="Futura-Medium"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="sWr-Us-IKc" kind="show" id="07G-m0-rWS"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="My Choice Icon (2)" translatesAutoresizingMaskIntoConstraints="NO" id="wKl-eZ-b2v">
+                                                <rect key="frame" x="91" y="611" width="238" height="191"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="wKl-eZ-b2v" secondAttribute="height" multiplier="238:191" id="OQg-TF-2Dr"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="69e-Fg-Aya">
+                                                <rect key="frame" x="85" y="529" width="244" height="64"/>
+                                                <color key="tintColor" red="0.47058826679999999" green="0.77254903320000001" blue="0.88627451660000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="tinted">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Condoms">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.36262726086121877" green="0.59478301138245249" blue="0.68602035984848486" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="20" name="Futura-Medium"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="aC8-TI-pkd" kind="show" id="23W-B4-ewq"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" red="0.84023570718783502" green="0.86054719829488391" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
+                                            <constraint firstItem="vam-eY-11N" firstAttribute="leading" secondItem="VKF-aV-2va" secondAttribute="leading" constant="85" id="1Yu-L0-Une"/>
+                                            <constraint firstItem="69e-Fg-Aya" firstAttribute="leading" secondItem="VKF-aV-2va" secondAttribute="leading" constant="85" id="562-kX-PxD"/>
                                             <constraint firstAttribute="height" constant="1500" id="E11-y1-DTV"/>
+                                            <constraint firstAttribute="trailing" secondItem="69e-Fg-Aya" secondAttribute="trailing" constant="85" id="FMD-nq-qwa"/>
+                                            <constraint firstAttribute="trailing" secondItem="b3x-jh-Kqd" secondAttribute="trailing" constant="47" id="NoH-g1-Zco"/>
+                                            <constraint firstItem="wKl-eZ-b2v" firstAttribute="leading" secondItem="VKF-aV-2va" secondAttribute="leading" constant="91" id="VFA-uc-5mi"/>
+                                            <constraint firstItem="b3x-jh-Kqd" firstAttribute="leading" secondItem="VKF-aV-2va" secondAttribute="leading" constant="47" id="XbZ-ND-g2J"/>
+                                            <constraint firstItem="vam-eY-11N" firstAttribute="top" secondItem="Ag9-ef-5bv" secondAttribute="bottom" constant="28" id="YUi-CA-nxt"/>
+                                            <constraint firstItem="Ag9-ef-5bv" firstAttribute="top" secondItem="y8W-QZ-Zra" secondAttribute="bottom" constant="41" id="c0b-1H-xNB"/>
+                                            <constraint firstItem="b3x-jh-Kqd" firstAttribute="top" secondItem="VKF-aV-2va" secondAttribute="top" constant="39" id="cJ4-Qq-N5e"/>
+                                            <constraint firstItem="y8W-QZ-Zra" firstAttribute="leading" secondItem="VKF-aV-2va" secondAttribute="leading" constant="25" id="cZn-o2-4uR"/>
+                                            <constraint firstAttribute="trailing" secondItem="vam-eY-11N" secondAttribute="trailing" constant="85" id="e56-Mo-4WN"/>
+                                            <constraint firstItem="69e-Fg-Aya" firstAttribute="top" secondItem="vam-eY-11N" secondAttribute="bottom" constant="28" id="mfO-BW-sPb"/>
+                                            <constraint firstItem="Ag9-ef-5bv" firstAttribute="leading" secondItem="VKF-aV-2va" secondAttribute="leading" constant="85" id="mxg-5m-akP"/>
+                                            <constraint firstItem="wKl-eZ-b2v" firstAttribute="top" secondItem="69e-Fg-Aya" secondAttribute="bottom" constant="27" id="r00-Ef-jbx"/>
+                                            <constraint firstItem="y8W-QZ-Zra" firstAttribute="top" secondItem="b3x-jh-Kqd" secondAttribute="bottom" constant="17" id="rGZ-Z7-0qO"/>
+                                            <constraint firstAttribute="trailing" secondItem="y8W-QZ-Zra" secondAttribute="trailing" constant="25" id="tCf-wU-uKk"/>
+                                            <constraint firstAttribute="trailing" secondItem="wKl-eZ-b2v" secondAttribute="trailing" constant="85" id="zMc-Lc-saO"/>
+                                            <constraint firstAttribute="trailing" secondItem="Ag9-ef-5bv" secondAttribute="trailing" constant="85" id="zVG-aE-BUa"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -308,134 +537,9 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mbG-yP-9mI">
-                                        <rect key="frame" x="0.0" y="-658" width="414" height="1500"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RcH-Ci-afn">
-                                                <rect key="frame" x="137" y="66" width="141" height="61"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" secondItem="RcH-Ci-afn" secondAttribute="height" multiplier="230:59" id="Dam-dL-R93"/>
-                                                </constraints>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="STDs ">
-                                                        <attributes>
-                                                            <font key="NSFont" size="50" name="HelveticaNeue-Light"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
-                                                <color key="highlightedColor" systemColor="systemPinkColor"/>
-                                            </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZeE-M4-VJ7">
-                                                <rect key="frame" x="68" y="179" width="254" height="63"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="What is an STD?"/>
-                                                <buttonConfiguration key="configuration" style="gray">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="What is an STD?">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="Helvetica"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="question1:" destination="Mgu-Jf-CXE" eventType="touchUpInside" id="xs5-6h-cgN"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZZh-eY-jzU">
-                                                <rect key="frame" x="54" y="648" width="306" height="63"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="What is an STD?"/>
-                                                <buttonConfiguration key="configuration" style="gray">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Common STD symptoms ">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="Helvetica"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="question1:" destination="Mgu-Jf-CXE" eventType="touchUpInside" id="eug-vj-O7V"/>
-                                                </connections>
-                                            </button>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="rectangle.expand.vertical" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Q8q-RG-oKt">
-                                                <rect key="frame" x="274" y="195" width="32" height="31"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rr7-mS-lON">
-                                                <rect key="frame" x="68" y="242" width="254" height="113"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="quaternaryLabelColor"/>
-                                                <string key="text">An STD or sexual transmited disease is a an infection transmitted through sexual contact, caused by bacteria, viruses or parasites. </string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oc8-xY-pDb">
-                                                <rect key="frame" x="68" y="474" width="254" height="63"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="What is an STD?"/>
-                                                <buttonConfiguration key="configuration" style="gray">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="STD prevention ">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="Helvetica"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="question1:" destination="Mgu-Jf-CXE" eventType="touchUpInside" id="G3K-vN-h71"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PFg-uP-sMN">
-                                                <rect key="frame" x="119" y="876" width="177" height="63"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="What is an STD?"/>
-                                                <buttonConfiguration key="configuration" style="gray">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Dallas">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="Helvetica"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="question1:" destination="Mgu-Jf-CXE" eventType="touchUpInside" id="FFW-5e-2gd"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mOe-V7-Sp7">
-                                                <rect key="frame" x="119" y="967" width="177" height="63"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="What is an STD?"/>
-                                                <buttonConfiguration key="configuration" style="gray">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="El Paso ">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="Helvetica"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="question1:" destination="Mgu-Jf-CXE" eventType="touchUpInside" id="XAO-eQ-xZN"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.86000359058380127" green="0.81430691480636597" blue="0.95199984312057495" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstItem="RcH-Ci-afn" firstAttribute="width" secondItem="RcH-Ci-afn" secondAttribute="height" multiplier="230:59" id="1xG-jH-okj"/>
                                             <constraint firstAttribute="height" constant="1500" id="fnH-Qn-LZl"/>
                                         </constraints>
                                     </view>
@@ -461,9 +565,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="n48-Dd-fhM"/>
                     <size key="freeformSize" width="414" height="896"/>
-                    <connections>
-                        <outlet property="info1" destination="Rr7-mS-lON" id="3i3-tg-qXy"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PdL-91-E6y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -471,18 +572,15 @@
         </scene>
     </scenes>
     <resources>
-        <image name="5" width="500" height="500"/>
         <image name="My Choice Icon" width="500" height="500"/>
+        <image name="My Choice Icon (2)" width="500" height="500"/>
+        <image name="My Choice Icon (3)" width="500" height="500"/>
+        <image name="My Choice Icon (4)" width="500" height="500"/>
+        <image name="My Choice Icon (5)" width="500" height="500"/>
         <image name="Screen Shot 2022-06-15 at 1.36.57 PM" width="470" height="338"/>
-        <image name="rectangle.expand.vertical" catalog="system" width="128" height="122"/>
-        <systemColor name="quaternaryLabelColor">
-            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.17999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
+        <image name="Screen Shot 2022-06-16 at 9.37.18 AM" width="724" height="348"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemIndigoColor">
-            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemPinkColor">
             <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

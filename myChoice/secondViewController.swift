@@ -8,9 +8,6 @@
 import UIKit
 
 class secondViewController: UIViewController {
-
-
-    @IBOutlet weak var clinicName: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,10 +15,6 @@ class secondViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func sanA(_ sender: Any) {
-        
-        clinicName.text = "Chaves county Pregnancy Center"
-    }
     /*
     // MARK: - Navigation
 
