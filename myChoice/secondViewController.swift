@@ -8,12 +8,10 @@
 import UIKit
 
 class secondViewController: UIViewController {
-
-    @IBOutlet weak var label1: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        label1.text = "my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text"
+        
         // Do any additional setup after loading the view.
     }
     
