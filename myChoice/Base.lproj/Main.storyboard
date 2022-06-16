@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -538,9 +538,54 @@
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mbG-yP-9mI">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Risks + Prevention" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zCP-6I-1qt">
+                                                <rect key="frame" x="47" y="496" width="320" height="38"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="29"/>
+                                                <color key="textColor" red="0.91158312559127808" green="0.51178324222564697" blue="0.45999735593795776" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a7S-Q0-7No">
+                                                <rect key="frame" x="36" y="133" width="343" height="355"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="a7S-Q0-7No" secondAttribute="height" multiplier="343:355" id="eSG-n5-SOh"/>
+                                                </constraints>
+                                                <string key="text">An, STD or sexaul trasnmitted disease is a and insfection that can be transmitted from one person to another usually during sexual contact. Despite being very common, specially but not exclusively among young people, STDs are often pushed aside until its too late. If you have an active sexual life you are vulnerable to contracting them, in fact anyone despite their relationship status or sexual orientation is vulnerable as well. </string>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                                <color key="textColor" red="0.50980395079999996" green="0.49803921579999999" blue="0.68235301969999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zlt-2q-8Cd">
+                                                <rect key="frame" x="67" y="542" width="312" height="236"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Contracting different diseases can lead to different consquences the severity of these depends on the way they are treated. But som</string>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                                <color key="textColor" red="0.50980395079999996" green="0.49803921579999999" blue="0.68235301969999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What to do?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hfI-5i-bgB">
+                                                <rect key="frame" x="47" y="786" width="320" height="38"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="29"/>
+                                                <color key="textColor" red="0.91158312559127808" green="0.51178324222564697" blue="0.45999735593795776" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="STDs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ug-Im-krI">
+                                                <rect key="frame" x="67" y="89" width="304" height="36"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="29"/>
+                                                <color key="textColor" red="0.91158312559127808" green="0.51178324222564697" blue="0.45999735593795776" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.96480482816696167" green="0.89015287160873413" blue="0.8654361367225647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
+                                            <constraint firstAttribute="trailingMargin" secondItem="2Ug-Im-krI" secondAttribute="trailing" constant="35" id="RC7-Yj-R4x"/>
+                                            <constraint firstAttribute="trailing" secondItem="a7S-Q0-7No" secondAttribute="trailing" constant="35" id="c6T-T3-6ls"/>
                                             <constraint firstAttribute="height" constant="1500" id="fnH-Qn-LZl"/>
+                                            <constraint firstItem="a7S-Q0-7No" firstAttribute="top" secondItem="2Ug-Im-krI" secondAttribute="bottom" constant="8" symbolic="YES" id="tRM-kj-4k0"/>
+                                            <constraint firstItem="a7S-Q0-7No" firstAttribute="leading" secondItem="mbG-yP-9mI" secondAttribute="leading" constant="36" id="weV-8O-dDZ"/>
+                                            <constraint firstItem="2Ug-Im-krI" firstAttribute="leading" secondItem="mbG-yP-9mI" secondAttribute="leadingMargin" constant="59" id="yT4-Do-ek7"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -568,7 +613,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PdL-91-E6y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="928.98550724637687" y="627.45535714285711"/>
+            <point key="canvasLocation" x="1398.5507246376812" y="720.53571428571422"/>
         </scene>
     </scenes>
     <resources>
