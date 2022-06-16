@@ -9,13 +9,19 @@ import UIKit
 
 class fourthViewController: UIViewController {
 
+    @IBOutlet weak var info1: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        info1.isHidden = true
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func question1(_ sender: Any) {
+        info1.isHidden = false
+    }
+    
     /*
     // MARK: - Navigation
 

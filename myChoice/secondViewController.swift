@@ -9,14 +9,19 @@ import UIKit
 
 class secondViewController: UIViewController {
 
-    @IBOutlet weak var label1: UILabel!
+
+    @IBOutlet weak var clinicName: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        label1.text = "my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text my text"
+        
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func sanA(_ sender: Any) {
+        
+        clinicName.text = "Chaves county Pregnancy Center"
+    }
     /*
     // MARK: - Navigation
 
