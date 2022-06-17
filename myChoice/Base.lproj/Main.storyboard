@@ -755,7 +755,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Dzs-tp-nFg"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.91808396579999996" green="0.9364635348" blue="0.98824232820000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="3rI-N7-yHd" firstAttribute="top" secondItem="Dzs-tp-nFg" secondAttribute="top" constant="38" id="5Qd-Ok-drj"/>
                             <constraint firstItem="Dzs-tp-nFg" firstAttribute="trailing" secondItem="HHA-S1-lLv" secondAttribute="trailing" constant="49" id="W8m-6w-Gpq"/>
