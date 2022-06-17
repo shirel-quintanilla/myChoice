@@ -91,7 +91,6 @@
 		17A98CC928590638001B9802 = {
 			isa = PBXGroup;
 			children = (
-				17FFECEF285CC68A00D1FB77 /* houston.swift */,
 				17A98CD428590638001B9802 /* myChoice */,
 				17A98CEE2859063A001B9802 /* myChoiceTests */,
 				17A98CF82859063A001B9802 /* myChoiceUITests */,
@@ -113,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				17A98CD528590638001B9802 /* AppDelegate.swift */,
+				17FFECEF285CC68A00D1FB77 /* houston.swift */,
 				17A98CD728590638001B9802 /* SceneDelegate.swift */,
 				17A98CD928590638001B9802 /* ViewController.swift */,
 				171A07122859B7D700187B36 /* secondViewController.swift */,
