@@ -449,7 +449,7 @@
                                                     <attributedString key="attributedTitle">
                                                         <fragment content="IUDs">
                                                             <attributes>
-                                                                <color key="NSColor" red="0.36262726090000003" green="0.59478301140000001" blue="0.68602035979999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <color key="NSColor" red="0.36262726086121877" green="0.59478301138245249" blue="0.68602035984848486" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <font key="NSFont" size="20" name="Futura-Medium"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -468,7 +468,7 @@
                                                     <attributedString key="attributedTitle">
                                                         <fragment content="Birth Control Pills">
                                                             <attributes>
-                                                                <color key="NSColor" red="0.36262726090000003" green="0.59478301140000001" blue="0.68602035979999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <color key="NSColor" red="0.36262726086121877" green="0.59478301138245249" blue="0.68602035984848486" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <font key="NSFont" size="20" name="Futura-Medium"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -493,7 +493,7 @@
                                                     <attributedString key="attributedTitle">
                                                         <fragment content="Condoms">
                                                             <attributes>
-                                                                <color key="NSColor" red="0.36262726090000003" green="0.59478301140000001" blue="0.68602035979999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <color key="NSColor" red="0.36262726086121877" green="0.59478301138245249" blue="0.68602035984848486" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <font key="NSFont" size="20" name="Futura-Medium"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -567,63 +567,148 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mbG-yP-9mI">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <rect key="frame" x="0.0" y="-648" width="414" height="1500"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Risks + Prevention" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zCP-6I-1qt">
-                                                <rect key="frame" x="47" y="496" width="320" height="38"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Symptoms " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hfI-5i-bgB">
+                                                <rect key="frame" x="55" y="1168" width="304" height="38"/>
                                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="29"/>
-                                                <color key="textColor" red="0.91158312559127808" green="0.51178324222564697" blue="0.45999735593795776" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.89724940060000002" green="0.70533895489999998" blue="0.74902182819999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a7S-Q0-7No">
-                                                <rect key="frame" x="36" y="133" width="343" height="355"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Prevention" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zCP-6I-1qt">
+                                                <rect key="frame" x="44" y="636" width="320" height="38"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="29"/>
+                                                <color key="textColor" red="0.89721298220000001" green="0.69750148059999995" blue="0.74117845299999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STDs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ivU-h2-x7P">
+                                                <rect key="frame" x="47" y="69" width="320" height="38"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="29"/>
+                                                <color key="textColor" red="0.89721298220000001" green="0.69750148059999995" blue="0.74117845299999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1nS-kc-Nno">
+                                                <rect key="frame" x="44" y="115" width="327" height="380"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" secondItem="a7S-Q0-7No" secondAttribute="height" multiplier="343:355" id="eSG-n5-SOh"/>
+                                                    <constraint firstAttribute="width" secondItem="1nS-kc-Nno" secondAttribute="height" multiplier="343:355" id="oKq-N7-FgT"/>
                                                 </constraints>
                                                 <string key="text">An, STD or sexually trasnmitted disease, is a and infection that can be transmitted from one person to another usually during sexual contact. Despite being very common, specially but not exclusively among young people, STDs are often pushed aside until its too late. If you have an active sexual life you are vulnerable to contracting them, in fact anyone despite their relationship status or sexual orientation is vulnerable as well. </string>
                                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                                 <color key="textColor" red="0.50980395079999996" green="0.49803921579999999" blue="0.68235301969999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zlt-2q-8Cd">
-                                                <rect key="frame" x="67" y="542" width="312" height="236"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Contracting different diseases can lead to different consquences the severity of these depends on the way they are treated. But som</string>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="HIV" translatesAutoresizingMaskIntoConstraints="NO" id="WgP-IY-DEM">
+                                                <rect key="frame" x="143" y="503" width="128" height="138"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AeU-Wg-Wmv">
+                                                <rect key="frame" x="44" y="682" width="327" height="208"/>
+                                                <string key="text">Contracting different diseases can lead to different consquences the severity of these depends on the way they are treated. But some actions to make sure you prevent them is the use of condoms, constant check ups and effective communication with your partner(s)</string>
                                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                                 <color key="textColor" red="0.50980395079999996" green="0.49803921579999999" blue="0.68235301969999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What to do?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hfI-5i-bgB">
-                                                <rect key="frame" x="47" y="786" width="320" height="38"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="29"/>
-                                                <color key="textColor" red="0.91158312559127808" green="0.51178324222564697" blue="0.45999735593795776" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Chlamydia" translatesAutoresizingMaskIntoConstraints="NO" id="vbQ-tf-z6k">
+                                                <rect key="frame" x="147" y="1038" width="120" height="113"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="vbQ-tf-z6k" secondAttribute="height" multiplier="17:16" id="jkK-rs-Ufd"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cSm-2k-l8a">
+                                                <rect key="frame" x="44" y="1208" width="327" height="286"/>
+                                                <string key="text">If you expereince symptons such as itchness and pain in your genitals, unusual body liquids, bleeding or even suspect you were in sexual contact with a person with an STD you should immediately seek medical assistance. Some STDs such as chlamydia don't manifest symptoms until the infection is already advanced.</string>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                                <color key="textColor" red="0.50980395079999996" green="0.49803921579999999" blue="0.68235301969999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="STDs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ug-Im-krI">
-                                                <rect key="frame" x="67" y="89" width="304" height="36"/>
-                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="29"/>
-                                                <color key="textColor" red="0.91158312559127808" green="0.51178324222564697" blue="0.45999735593795776" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SlF-Ya-hwJ">
+                                                <rect key="frame" x="85" y="924" width="244" height="64"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="SlF-Ya-hwJ" secondAttribute="height" multiplier="61:16" id="CV0-qN-v21"/>
+                                                </constraints>
+                                                <color key="tintColor" red="0.47058826679999999" green="0.77254903320000001" blue="0.88627451660000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="tinted">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="What to do?">
+                                                            <attributes>
+                                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                <font key="NSFont" size="20" name="Futura-Medium"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <color key="baseForegroundColor" red="0.56190603969999997" green="0.55394667389999996" blue="0.72158771749999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.97234338521957397" green="0.040299355983734131" blue="0.096830077469348907" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="l2x-01-tRS" kind="show" id="lLp-4t-che"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.96480482816696167" green="0.89015287160873413" blue="0.8654361367225647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.91808396579999996" green="0.9364635348" blue="0.98824232820000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
-                                            <constraint firstAttribute="trailingMargin" secondItem="2Ug-Im-krI" secondAttribute="trailing" constant="35" id="RC7-Yj-R4x"/>
-                                            <constraint firstAttribute="trailing" secondItem="a7S-Q0-7No" secondAttribute="trailing" constant="35" id="c6T-T3-6ls"/>
+                                            <constraint firstAttribute="trailing" secondItem="SlF-Ya-hwJ" secondAttribute="trailing" constant="73" id="3N8-et-Qab"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="cSm-2k-l8a" secondAttribute="bottom" id="5Jk-Sk-7Jd"/>
+                                            <constraint firstItem="zCP-6I-1qt" firstAttribute="leading" secondItem="mbG-yP-9mI" secondAttribute="leading" constant="47" id="7vb-yO-sx1"/>
+                                            <constraint firstItem="vbQ-tf-z6k" firstAttribute="leading" secondItem="mbG-yP-9mI" secondAttribute="leadingMargin" constant="139" id="CQP-RL-Z9e"/>
+                                            <constraint firstItem="hfI-5i-bgB" firstAttribute="leading" secondItem="mbG-yP-9mI" secondAttribute="leadingMargin" constant="47" id="Cc6-Td-few"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="WgP-IY-DEM" secondAttribute="trailing" constant="131" id="Hec-MH-6xv"/>
+                                            <constraint firstItem="vbQ-tf-z6k" firstAttribute="top" secondItem="SlF-Ya-hwJ" secondAttribute="bottom" constant="22" id="Igx-4t-qgI"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="vbQ-tf-z6k" secondAttribute="trailing" constant="139" id="LqK-46-YdX"/>
+                                            <constraint firstItem="hfI-5i-bgB" firstAttribute="top" secondItem="SlF-Ya-hwJ" secondAttribute="bottom" constant="156" id="Mq7-ox-S4P"/>
+                                            <constraint firstItem="cSm-2k-l8a" firstAttribute="leading" secondItem="mbG-yP-9mI" secondAttribute="leadingMargin" constant="36" id="P6I-9u-4B8"/>
+                                            <constraint firstItem="WgP-IY-DEM" firstAttribute="top" secondItem="1nS-kc-Nno" secondAttribute="bottom" constant="19" id="Q5z-wr-wa9"/>
+                                            <constraint firstItem="1nS-kc-Nno" firstAttribute="leading" secondItem="mbG-yP-9mI" secondAttribute="leadingMargin" constant="36" id="R5k-KC-0qb"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="cSm-2k-l8a" secondAttribute="trailing" constant="35" id="U96-gW-iZO"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="AeU-Wg-Wmv" secondAttribute="trailing" constant="43" id="Uv3-Eu-5tJ"/>
+                                            <constraint firstItem="ivU-h2-x7P" firstAttribute="leading" secondItem="mbG-yP-9mI" secondAttribute="leading" constant="47" id="Wn1-SS-Rk5"/>
+                                            <constraint firstItem="AeU-Wg-Wmv" firstAttribute="leading" secondItem="mbG-yP-9mI" secondAttribute="leadingMargin" constant="28" id="aK2-uc-61A"/>
+                                            <constraint firstItem="ivU-h2-x7P" firstAttribute="top" secondItem="mbG-yP-9mI" secondAttribute="topMargin" constant="61" id="ayW-YB-98x"/>
+                                            <constraint firstAttribute="trailing" secondItem="ivU-h2-x7P" secondAttribute="trailing" constant="47" id="c1q-b0-IpK"/>
                                             <constraint firstAttribute="height" constant="1500" id="fnH-Qn-LZl"/>
-                                            <constraint firstItem="a7S-Q0-7No" firstAttribute="top" secondItem="2Ug-Im-krI" secondAttribute="bottom" constant="8" symbolic="YES" id="tRM-kj-4k0"/>
-                                            <constraint firstItem="a7S-Q0-7No" firstAttribute="leading" secondItem="mbG-yP-9mI" secondAttribute="leading" constant="36" id="weV-8O-dDZ"/>
-                                            <constraint firstItem="2Ug-Im-krI" firstAttribute="leading" secondItem="mbG-yP-9mI" secondAttribute="leadingMargin" constant="59" id="yT4-Do-ek7"/>
+                                            <constraint firstItem="ivU-h2-x7P" firstAttribute="top" secondItem="mbG-yP-9mI" secondAttribute="top" constant="69" id="fqr-2v-eAu"/>
+                                            <constraint firstItem="zCP-6I-1qt" firstAttribute="top" secondItem="WgP-IY-DEM" secondAttribute="bottom" constant="37" id="fut-LD-O2o"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="hfI-5i-bgB" secondAttribute="trailing" constant="47" id="haH-5D-cBk"/>
+                                            <constraint firstItem="AeU-Wg-Wmv" firstAttribute="top" secondItem="zCP-6I-1qt" secondAttribute="bottom" constant="8" symbolic="YES" id="jhz-XQ-4hI"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="1nS-kc-Nno" secondAttribute="trailing" constant="35" id="mCD-MY-E4z"/>
+                                            <constraint firstItem="zCP-6I-1qt" firstAttribute="top" secondItem="ivU-h2-x7P" secondAttribute="bottom" constant="572" id="p1c-YW-HBG"/>
+                                            <constraint firstItem="SlF-Ya-hwJ" firstAttribute="top" secondItem="zCP-6I-1qt" secondAttribute="bottom" constant="252" id="q5C-tP-sJB"/>
+                                            <constraint firstAttribute="trailing" secondItem="zCP-6I-1qt" secondAttribute="trailing" constant="47" id="qTB-UW-adE"/>
+                                            <constraint firstItem="1nS-kc-Nno" firstAttribute="top" secondItem="ivU-h2-x7P" secondAttribute="bottom" constant="8" symbolic="YES" id="sb1-5y-ibe"/>
+                                            <constraint firstItem="SlF-Ya-hwJ" firstAttribute="leading" secondItem="mbG-yP-9mI" secondAttribute="leading" constant="97" id="u55-8t-o6O"/>
+                                            <constraint firstItem="WgP-IY-DEM" firstAttribute="leading" secondItem="mbG-yP-9mI" secondAttribute="leadingMargin" constant="139" id="vVY-xR-18D"/>
+                                            <constraint firstItem="vbQ-tf-z6k" firstAttribute="top" secondItem="SlF-Ya-hwJ" secondAttribute="bottom" constant="50" id="xtK-Y7-yCl"/>
+                                            <constraint firstItem="vbQ-tf-z6k" firstAttribute="top" secondItem="SlF-Ya-hwJ" secondAttribute="bottom" constant="50" id="zxC-5K-j5S"/>
                                         </constraints>
                                     </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVB-3j-uL5">
+                                        <rect key="frame" x="10" y="-648" width="244" height="64"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="244" id="0SH-o2-1GS"/>
+                                            <constraint firstAttribute="height" constant="64" id="svY-sm-bSy"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.47058826679999999" green="0.77254903320000001" blue="0.88627451660000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="tinted">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="IUDs">
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.36262726086121877" green="0.59478301138245249" blue="0.68602035984848486" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <font key="NSFont" size="20" name="Futura-Medium"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </buttonConfiguration>
+                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="mbG-yP-9mI" firstAttribute="leading" secondItem="2MG-Ea-HNj" secondAttribute="leading" id="6tS-7e-gQY"/>
                                     <constraint firstItem="mbG-yP-9mI" firstAttribute="top" secondItem="2MG-Ea-HNj" secondAttribute="top" id="EeQ-wi-vr5"/>
                                     <constraint firstAttribute="trailing" secondItem="mbG-yP-9mI" secondAttribute="trailing" id="PyM-2b-ath"/>
+                                    <constraint firstItem="aVB-3j-uL5" firstAttribute="leading" secondItem="2MG-Ea-HNj" secondAttribute="leading" constant="10" id="bXA-4i-az4"/>
                                     <constraint firstAttribute="bottom" secondItem="mbG-yP-9mI" secondAttribute="bottom" id="jGq-hB-76l"/>
+                                    <constraint firstItem="aVB-3j-uL5" firstAttribute="top" secondItem="2MG-Ea-HNj" secondAttribute="top" constant="-648" id="xUD-Qt-H7J"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -645,8 +730,54 @@
             </objects>
             <point key="canvasLocation" x="1398.5507246376812" y="720.53571428571422"/>
         </scene>
+        <!--Web View Controller-->
+        <scene sceneID="Xv6-T3-XvC">
+            <objects>
+                <viewController id="l2x-01-tRS" customClass="webViewController" customModule="myChoice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vo2-P0-LVo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HHA-S1-lLv">
+                                <rect key="frame" x="57" y="194" width="308" height="614"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3rI-N7-yHd">
+                                <rect key="frame" x="36" y="56" width="343" height="104"/>
+                                <string key="text"> If you are a Texas resident you can visit the Texas Health and Human services department for near testing and treatment clinics. Linked here. </string>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <color key="textColor" red="0.50980395079999996" green="0.49803921579999999" blue="0.68235301969999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Dzs-tp-nFg"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3rI-N7-yHd" firstAttribute="top" secondItem="Dzs-tp-nFg" secondAttribute="top" constant="38" id="5Qd-Ok-drj"/>
+                            <constraint firstItem="Dzs-tp-nFg" firstAttribute="trailing" secondItem="HHA-S1-lLv" secondAttribute="trailing" constant="49" id="W8m-6w-Gpq"/>
+                            <constraint firstItem="HHA-S1-lLv" firstAttribute="top" secondItem="3rI-N7-yHd" secondAttribute="bottom" constant="8" symbolic="YES" id="aYF-46-pLr"/>
+                            <constraint firstItem="3rI-N7-yHd" firstAttribute="leading" secondItem="Dzs-tp-nFg" secondAttribute="leading" constant="36" id="bdr-xg-3YU"/>
+                            <constraint firstItem="HHA-S1-lLv" firstAttribute="leading" secondItem="Dzs-tp-nFg" secondAttribute="leading" constant="57" id="j4K-9K-EK1"/>
+                            <constraint firstItem="Dzs-tp-nFg" firstAttribute="trailing" secondItem="3rI-N7-yHd" secondAttribute="trailing" constant="35" id="qYC-7M-jAU"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="uV1-X6-gMd"/>
+                    <connections>
+                        <outlet property="resource" destination="HHA-S1-lLv" id="svo-Yf-S0s"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FPR-Iw-035" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2121.739130434783" y="858.48214285714278"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="Chlamydia" width="500" height="500"/>
+        <image name="HIV" width="500" height="500"/>
         <image name="My Choice Icon" width="500" height="500"/>
         <image name="My Choice Icon (2)" width="500" height="500"/>
         <image name="My Choice Icon (3)" width="500" height="500"/>

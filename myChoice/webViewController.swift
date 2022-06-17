@@ -1,22 +1,27 @@
 //
-//  fourthViewController.swift
+//  webViewController.swift
 //  myChoice
 //
-//  Created by Shirel Quintanilla on 15/06/22.
+//  Created by Shirel Quintanilla on 16/06/22.
 //
 
 import UIKit
-
-class fourthViewController: UIViewController {
-
-  
+import WebKit
+class webViewController: UIViewController {
+    
+    
+    @IBOutlet weak var resource: WKWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let myURL = URL(string: "https://www.dshs.texas.gov/hivstd/testing/")
+        resource.load(URLRequest(url:myURL!))
 
         // Do any additional setup after loading the view.
     }
-  
+    
+
     /*
     // MARK: - Navigation
 
